@@ -1,0 +1,4 @@
+numpy
+opencv_python
+albumentations
+-i http://mirrors.aliyun.com/pypi/simple/ --extra-index-url https://pypi.python.org/simple --trusted-host mirrors.aliyun.com
