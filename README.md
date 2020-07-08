@@ -5,6 +5,7 @@
 - [x] 数据预处理 (gen_datas/gen_ans_data_train_no_pad.py)
     - [x] 只保留视频片段和 gallery 都出现过的 id
     - [x] 对视频片段中相隔40帧的图片按照iou去重
+    - [x] 按大类构建batch增加训练难度 (mmdet/datasets/loader/sampler.py DistSameIdentityCateSampler)
 
 - [x] model and loss (mmdet/models/ir/ir.py)
     - [x] circle loss
